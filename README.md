@@ -1,26 +1,21 @@
-# Uncork — сборки / builds
+# Uncork
 
-Бесплатная альтернатива CrossOver для Apple Silicon: Steam и игры (CS2 и другие) на Mac через Wine 10 и Apple D3DMetal.
-Здесь только готовые сборки; исходный код пока закрыт.
+Uncork — платное приложение для Mac с Apple Silicon (M1 и новее, macOS 14 или новее): запускает Windows-игры из Steam и Epic Games Store.
+Три дня бесплатно, дальше 5 € в месяц или 50 € в год.
 
-## Установка
+Описание, цена и скачивание — на сайте **[uncork.win](https://uncork.win)**. Исходный код приложения не опубликован.
+Драйвер, производный от компонента с лицензией LGPL, сопровождается лицензией и письменным предложением исходников:
+они входят в приложение (Настройки → Помощь → Лицензии компонентов).
 
-1. Скачай последний **Uncork-x.y.z.dmg** в разделе Releases и открой его.
-2. Перетащи **Uncork** в «Программы».
-3. Первый запуск: правый клик по Uncork → **Открыть** (сборка не нотаризована).
-   Если macOS всё равно не пускает: Системные настройки → Конфиденциальность и безопасность → **Всё равно открыть**.
-4. Внутри приложения: «Поставить Steam» — установщик качается с steampowered.com сам.
+Ранние сборки 0.4.x, лежавшие здесь раньше, сняты с публикации: они устарели и не поддерживаются. Актуальная версия — на сайте.
 
-**Пишет «The application “Uncork” can't be opened»** (так бывает на macOS 26, если файл пришёл через Telegram, AirDrop или браузер): сними карантин одной командой в Terminal и открой снова:
+## Uncork (English)
 
-```bash
-xattr -dr com.apple.quarantine /Applications/Uncork.app && open /Applications/Uncork.app
-```
+Uncork is a paid Mac app for Apple Silicon (M1 and later, macOS 14 or later) that runs Windows games from Steam and the Epic Games Store.
+Three days free, then 5 € a month or 50 € a year.
 
-**Нужно:** Apple Silicon (M1 и новее), macOS 14 или новее, Rosetta 2, Homebrew и каска `gcenx/wine/game-porting-toolkit` (приложение подскажет, чего не хватает).
+Details, price and download are on **[uncork.win](https://uncork.win/en/)**. The app's source code is not published.
+The driver, derived from a component under the LGPL, ships with the licence and a written offer of its source, both included in the app
+(Settings → Help → Component licences).
 
-## Install (English)
-
-Download the latest **Uncork-x.y.z.dmg** from Releases, drag Uncork to Applications, then right-click → **Open** on first launch (the build is not notarized). If macOS still refuses: System Settings → Privacy & Security → **Open Anyway**. If it just says the app "can't be opened" (macOS 26, file received via Telegram/AirDrop/browser), clear the quarantine flag in Terminal: `xattr -dr com.apple.quarantine /Applications/Uncork.app && open /Applications/Uncork.app`. Requires Apple Silicon, macOS 14+, Rosetta 2, Homebrew and the `gcenx/wine/game-porting-toolkit` cask.
-
-Uncork never asks for a Steam password or Steam Guard code: signing in stays inside Steam's own window.
+The early 0.4.x builds that used to be here have been withdrawn: they are outdated and unsupported. The current version is on the site.
