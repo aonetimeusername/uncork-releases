@@ -2,7 +2,7 @@
 
 Uncork — платное приложение для Mac на Apple Silicon: запускает Windows-игры из Steam и Epic. Семь дней бесплатно и без регистрации, дальше 5 € в месяц или 50 € в год.
 
-Это платное приложение, а не бесплатное: бесплатна только проба — семь дней. Нужен Mac с Apple Silicon (M1 и новее) и macOS 14 или новее. Приложение в бете (предварительная сборка), актуальная версия — **0.19.3** от 3 октября 2026. Эта страница сверена с сайтом **3 октября 2026**.
+Это платное приложение, а не бесплатное: бесплатна только проба — семь дней. Нужен Mac с Apple Silicon (M1 и новее) и macOS 14 или новее. Приложение в бете (предварительная сборка), актуальная версия — **0.19.4** от 3 октября 2026. Эта страница сверена с сайтом **3 октября 2026**.
 
 Описание, цена и скачивание — на сайте **[uncork.win](https://uncork.win)**. Этот репозиторий — страница-указатель на сайт: в нём нет ни исходного кода, ни сборок. Исходный код приложения не опубликован. Другие публичные проекты на GitHub с названием Uncork — не это приложение и не наши.
 
@@ -103,7 +103,7 @@ Valve официально не поддерживает запуск через
 
 Uncork is a paid Mac app for Apple Silicon: it runs Windows games from Steam and Epic. Seven days free with no sign-up, then €5 a month or €50 a year.
 
-It is a paid app, not a free one: only the trial, seven days, is free. It needs a Mac with Apple Silicon (M1 and later) and macOS 14 or later. The app is in beta (a prerelease build); the current version is **0.19.3**, released on 3 October 2026. This page was checked against the website on **3 October 2026**.
+It is a paid app, not a free one: only the trial, seven days, is free. It needs a Mac with Apple Silicon (M1 and later) and macOS 14 or later. The app is in beta (a prerelease build); the current version is **0.19.4**, released on 3 October 2026. This page was checked against the website on **3 October 2026**.
 
 The description, price and download are on **[uncork.win](https://uncork.win/en/)**. This repository is a pointer page to the site: it holds no source code and no builds. The app's source code is not published. Other public GitHub projects called Uncork are not this app and not ours.
 
