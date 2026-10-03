@@ -1,8 +1,8 @@
 # Uncork
 
-Uncork — платное приложение для Mac на Apple Silicon: запускает Windows-игры из Steam и Epic. Три дня бесплатно, дальше 5 € в месяц или 50 € в год.
+Uncork — платное приложение для Mac на Apple Silicon: запускает Windows-игры из Steam и Epic. Семь дней бесплатно и без регистрации, дальше 5 € в месяц или 50 € в год.
 
-Это платное приложение, а не бесплатное: бесплатна только проба — три дня. Нужен Mac с Apple Silicon (M1 и новее) и macOS 14 или новее. Приложение в бете (предварительная сборка), актуальная версия — **0.17.0** от 30 сентября 2026. Эта страница сверена с сайтом **1 октября 2026**.
+Это платное приложение, а не бесплатное: бесплатна только проба — семь дней. Нужен Mac с Apple Silicon (M1 и новее) и macOS 14 или новее. Приложение в бете (предварительная сборка), актуальная версия — **0.19.2** от 3 октября 2026. Эта страница сверена с сайтом **3 октября 2026**.
 
 Описание, цена и скачивание — на сайте **[uncork.win](https://uncork.win)**. Этот репозиторий — страница-указатель на сайт: в нём нет ни исходного кода, ни сборок. Исходный код приложения не опубликован. Другие публичные проекты на GitHub с названием Uncork — не это приложение и не наши.
 
@@ -10,7 +10,7 @@ English version: [below](#uncork-english).
 
 ## Цена и доступ
 
-- **5 € в месяц или 50 € в год.** Первые три дня бесплатны: отсчёт начинается не с регистрации, а с первого входа в приложение на маке. Проба одна на мак. Платят в профиле на сайте, когда решат остаться.
+- **5 € в месяц или 50 € в год.** Первые семь дней бесплатны и без аккаунта: отсчёт начинается с кнопки «Начать 7 дней бесплатно» в приложении на этом Mac. Проба одна на Mac — для этого приложение отправляет отпечаток Mac. Аккаунт нужен, когда решите остаться: оплата — в профиле на сайте, а оставшиеся пробные дни при входе переходят в аккаунт. Автопродления нет: ничего не списывается само.
 - **Оплата** — Telegram Stars или TON, картой пока нельзя. В первые 14 дней после оплаты деньги возвращаются без объяснений ([условия](https://uncork.win/terms.html)).
 - **Один доступ — один Mac.** Перенос на другой Mac — по письму на hello@uncork.win.
 - **Ключ драйвера** живёт неделю и не переживает оплаченное время больше чем на час. Пока есть сеть, приложение продлевает его само, поэтому без интернета можно играть до семи дней. Когда оплаченное время кончается, игры не запускаются; приложение при этом открывается, а бутылка, Steam и игры на диске остаются вашими.
@@ -29,7 +29,7 @@ English version: [below](#uncork-english).
 
 | Возможность | Что это |
 |---|---|
-| Мышь с устройства | macOS отдаёт движение мыши пачками раз в кадр экрана; Uncork читает мышь прямо с устройства, до 1000 Гц (частота зависит от самой мыши). Нужно необязательное разрешение «Мониторинг ввода»: без него мышь читается обычным путём. |
+| Мышь с устройства | macOS отдаёт движение мыши пачками раз в кадр экрана; Uncork читает мышь прямо с устройства, до 1000 Гц (частота зависит от самой мыши). Наш замер 25 сентября 2026 (мышь 1000 Гц, MacBook Pro M3 Pro, вне игры): 843 движения в секунду против 119 пачек, которые доходят до обычной программы. Нужно необязательное разрешение «Мониторинг ввода»: без него мышь читается обычным путём. |
 | Ровные кадры | Кадры выходят на экран через равные промежутки. Режим для одиночных игр: гонок, экшенов, открытых миров. В соревновательных матчах (в том числе в CS2) его включать не советуем. |
 | Game Mode | macOS включает игровой режим и для Windows-игр, когда игра на весь экран и впереди: Uncork запускает каждую игру из её маленького приложения с категорией «Игры». |
 | Режим геймпада | DualSense, DualShock 4 или геймпад Xbox водит курсор по маку, пока игра не запущена. Нужно необязательное разрешение «Универсальный доступ». |
@@ -39,10 +39,10 @@ English version: [below](#uncork-english).
 
 ## Что проверено
 
-- Семь игр мы запускали сами, а из магазинов проверены Steam и Epic Games Store (сам магазин, а не весь его каталог). Каждая игра — с замером или пометкой «кадры не измеряли», машиной и датой — на странице [«Игры»](https://uncork.win/games.html) (машиночитаемая копия: [games.json](https://uncork.win/games.json)). Отчёт про Counter-Strike 2 — на странице [CS2 на Mac](https://uncork.win/cs2.html).
+- Семь игр мы запускали сами, а из магазинов проверены Steam и Epic Games Store (сам магазин, а не весь его каталог). Каждая игра — с замером или пометкой «кадры не измеряли», машиной и датой — на странице [«Игры»](https://uncork.win/games.html) (машиночитаемая копия: [games.json](https://uncork.win/games.json)). Counter-Strike 2: наш замер 30 сентября 2026 — 102–147 fps на Dust II на эталонной машине (ниже); условия и все записи с датами — на странице [CS2 на Mac](https://uncork.win/cs2.html).
 - Ubisoft Connect, EA app, Battle.net, GOG Galaxy и Rockstar Games в приложении есть, но работу в них мы не проверяли.
-- Игры, которых нет в списке, — «не знаем», а не «не работает». Многие, вероятно, запустятся, но мы этого не обещаем: проверить свою можно за три пробных дня.
-- Все замеры кадров сняты на одной машине — эталонной: MacBook Pro 14″ (Mac15,6), Apple M3 Pro, 14-ядерный GPU, 18 ГБ, macOS 26. На другом Mac и в другой сцене числа будут другими. Сами числа здесь не повторяются: их место на страницах CS2 и «Игры».
+- Игры, которых нет в списке, — «не знаем», а не «не работает». Многие, вероятно, запустятся, но мы этого не обещаем: проверить свою можно за семь пробных дней.
+- Все замеры кадров сняты на одной машине — эталонной: MacBook Pro 14″ (Mac15,6), Apple M3 Pro, 14-ядерный GPU, 18 ГБ, macOS 26. На другом Mac и в другой сцене числа будут другими. Подробные записи — на страницах CS2 и «Игры».
 
 ## Что не запустится
 
@@ -59,9 +59,9 @@ Valve официально не поддерживает запуск через
 
 ## Где скачать и как начать
 
-1. Войдите на сайте через Google или по коду на почту: **[uncork.win/me](https://uncork.win/me)**. В профиле будут ссылка на сборку и код доступа.
+1. Скачайте приложение кнопкой «Скачать» на **[uncork.win](https://uncork.win)** — вход и регистрация для этого не нужны.
 2. Установите приложение и подтвердите первый запуск в системных настройках (см. выше).
-3. Нажмите «Войти» в приложении: откроется браузер, вы подтверждаете — и этот Mac получает доступ. Затем войдите в Steam и поставьте игру.
+3. Нажмите «Начать 7 дней бесплатно»: проба пойдёт на этом Mac без аккаунта. Затем войдите в Steam внутри Uncork и поставьте игру. Аккаунт на сайте понадобится, когда решите оплатить; «Войти» — для тех, у кого он уже есть.
 
 ## Страницы сайта
 
@@ -101,15 +101,15 @@ Valve официально не поддерживает запуск через
 
 # Uncork (English)
 
-Uncork is a paid Mac app for Apple Silicon: it runs Windows games from Steam and Epic. Three days free, then €5 a month or €50 a year.
+Uncork is a paid Mac app for Apple Silicon: it runs Windows games from Steam and Epic. Seven days free with no sign-up, then €5 a month or €50 a year.
 
-It is a paid app, not a free one: only the trial, three days, is free. It needs a Mac with Apple Silicon (M1 and later) and macOS 14 or later. The app is in beta (a prerelease build); the current version is **0.17.0**, released on 30 September 2026. This page was checked against the website on **1 October 2026**.
+It is a paid app, not a free one: only the trial, seven days, is free. It needs a Mac with Apple Silicon (M1 and later) and macOS 14 or later. The app is in beta (a prerelease build); the current version is **0.19.2**, released on 3 October 2026. This page was checked against the website on **3 October 2026**.
 
 The description, price and download are on **[uncork.win](https://uncork.win/en/)**. This repository is a pointer page to the site: it holds no source code and no builds. The app's source code is not published. Other public GitHub projects called Uncork are not this app and not ours.
 
 ## Price and access
 
-- **5 € a month or 50 € a year.** The first three days are free: the count starts not at sign-up but the first time you sign in to the app on your Mac. There is one trial per Mac. You pay in your profile on the site when you decide to stay.
+- **5 € a month or 50 € a year.** The first seven days are free and need no account: the count starts when you press “Start 7 days free” in the app on this Mac. There is one trial per Mac — for that, the app sends a fingerprint of the Mac. You need an account once you decide to stay: you pay in your profile on the site, and signing in moves the trial days you have left to the account. There is no auto-renewal: nothing is charged by itself.
 - **Payment** is by Telegram Stars or TON; a card is not available yet. For the first 14 days after a payment your money is returned with no reasons asked ([the terms](https://uncork.win/terms.html)).
 - **One access, one Mac.** To move it to another Mac, write to hello@uncork.win.
 - **The driver key** lives for a week and never outlives your paid time by more than an hour. While there is a network the app renews it by itself, so you can play offline for up to seven days. When the paid time runs out, games stop launching; the app itself still opens, and the bottle, Steam and games on disk stay yours.
@@ -128,7 +128,7 @@ We do not promise to run everything. The work goes into how a game feels.
 
 | Feature | What it is |
 |---|---|
-| Mouse from the device | macOS hands mouse movement over in batches once per display frame; Uncork reads the mouse straight from the device, up to 1000 Hz (the rate depends on the mouse itself). It uses the optional “Input Monitoring” permission: without it the mouse is read the usual way. |
+| Mouse from the device | macOS hands mouse movement over in batches once per display frame; Uncork reads the mouse straight from the device, up to 1000 Hz (the rate depends on the mouse itself). Our measurement on 25 September 2026 (a 1000 Hz mouse, MacBook Pro M3 Pro, outside a game): 843 movements a second versus 119 batches reaching an ordinary program. It uses the optional “Input Monitoring” permission: without it the mouse is read the usual way. |
 | Even frames | Frames reach the screen at even intervals. A mode for single-player games: racing, action, open worlds. We do not recommend it in competitive matches (CS2 included). |
 | Game Mode | macOS turns Game Mode on for Windows games too, when the game is full screen and in front: Uncork launches each game from its own small app with the “Games” category. |
 | Gamepad mode | A DualSense, DualShock 4 or Xbox controller drives the Mac's pointer while no game is running. It uses the optional “Accessibility” permission. |
@@ -138,10 +138,10 @@ In the pages of other apps we read on 29 September 2026, reading the mouse from 
 
 ## What has been tested
 
-- We have run seven games ourselves, and of the stores, Steam and the Epic Games Store are tested (the store itself, not its whole catalogue). Each game, with a measurement or a “frame rate not measured” note, the machine and the date, is on [the Games page](https://uncork.win/en/games.html) (machine-readable copy: [games.json](https://uncork.win/games.json)). The Counter-Strike 2 report is on [CS2 on a Mac](https://uncork.win/en/cs2.html).
+- We have run seven games ourselves, and of the stores, Steam and the Epic Games Store are tested (the store itself, not its whole catalogue). Each game, with a measurement or a “frame rate not measured” note, the machine and the date, is on [the Games page](https://uncork.win/en/games.html) (machine-readable copy: [games.json](https://uncork.win/games.json)). Counter-Strike 2: our measurement on 30 September 2026 — 102–147 fps on Dust II on the reference machine (below); the conditions and all dated records are on [CS2 on a Mac](https://uncork.win/en/cs2.html).
 - Ubisoft Connect, EA app, Battle.net, GOG Galaxy and Rockstar Games are in the app, but we have not tested them.
-- A game that is not on the list is “unknown”, not “broken”. Many will probably start, but we do not promise it: you can check yours during the three trial days.
-- All frame-rate measurements were taken on one machine, the reference one: a MacBook Pro 14″ (Mac15,6), Apple M3 Pro, 14-core GPU, 18 GB, macOS 26. On another Mac and in another scene the numbers will differ. The numbers themselves are not repeated here: they belong on the CS2 and Games pages.
+- A game that is not on the list is “unknown”, not “broken”. Many will probably start, but we do not promise it: you can check yours during the seven trial days.
+- All frame-rate measurements were taken on one machine, the reference one: a MacBook Pro 14″ (Mac15,6), Apple M3 Pro, 14-core GPU, 18 GB, macOS 26. On another Mac and in another scene the numbers will differ. Detailed records are on the CS2 and Games pages.
 
 ## What will not run
 
@@ -158,9 +158,9 @@ Valve does not officially support running the game through a compatibility layer
 
 ## Where to download and how to start
 
-1. Sign in on the site with Google or a code by email: **[uncork.win/me](https://uncork.win/me)**. Your profile will have a download link and an access code.
+1. Download the app with the Download button on **[uncork.win](https://uncork.win/en/)** — no sign-in or sign-up needed.
 2. Install the app and confirm the first launch in System Settings (see above).
-3. Press “Sign in” in the app: your browser opens, you confirm, and this Mac gets access. Then sign in to Steam and install a game.
+3. Press “Start 7 days free”: the trial runs on this Mac with no account. Then sign in to Steam inside Uncork and install a game. You will need an account on the site when you decide to pay; “Sign in” is for those who already have one.
 
 ## Pages of the site
 
