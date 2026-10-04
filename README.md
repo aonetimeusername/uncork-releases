@@ -1,8 +1,8 @@
 # Uncork
 
-Uncork — платное приложение для Mac на Apple Silicon: запускает Windows-игры из Steam и Epic. Семь дней бесплатно и без регистрации, дальше 5 € в месяц или 50 € в год.
+Uncork — платное приложение для Mac на Apple Silicon: запускает Windows-игры из Steam и Epic. Семь дней бесплатно и без регистрации, дальше 2,50 € в месяц, 25 € в год или 42 € разово — без срока.
 
-Это платное приложение, а не бесплатное: бесплатна только проба — семь дней. Нужен Mac с Apple Silicon (M1 и новее) и macOS 14 или новее. Приложение в бете (предварительная сборка), актуальная версия — **0.19.4** от 3 октября 2026. Эта страница сверена с сайтом **3 октября 2026**.
+Это платное приложение, а не бесплатное: бесплатна только проба — семь дней. Нужен Mac с Apple Silicon (M1 и новее) и macOS 14 или новее. Приложение в бете (предварительная сборка), актуальная версия — **0.19.5** от 4 октября 2026. Эта страница сверена с сайтом **4 октября 2026**.
 
 Описание, цена и скачивание — на сайте **[uncork.win](https://uncork.win)**. Этот репозиторий — страница-указатель на сайт: в нём нет ни исходного кода, ни сборок. Исходный код приложения не опубликован. Другие публичные проекты на GitHub с названием Uncork — не это приложение и не наши.
 
@@ -10,10 +10,10 @@ English version: [below](#uncork-english).
 
 ## Цена и доступ
 
-- **5 € в месяц или 50 € в год.** Первые семь дней бесплатны и без аккаунта: отсчёт начинается с кнопки «Начать 7 дней бесплатно» в приложении на этом Mac. Проба одна на Mac — для этого приложение отправляет отпечаток Mac. Аккаунт нужен, когда решите остаться: оплата — в профиле на сайте, а оставшиеся пробные дни при входе переходят в аккаунт. Автопродления нет: ничего не списывается само.
+- **2,50 € в месяц, 25 € в год или 42 € разово.** Разовая покупка — доступ без срока со всеми обновлениями до версии 2.0 (все версии 0.x и 1.x); работу на macOS 28 и новее она не обещает: Apple оставляет там Rosetta только для отдельных старых игр. Первые семь дней бесплатны и без аккаунта: отсчёт начинается с кнопки «Начать 7 дней бесплатно» в приложении на этом Mac. Проба одна на Mac — для этого приложение отправляет отпечаток Mac. Аккаунт нужен, когда решите остаться: оплата — в профиле на сайте, а оставшиеся пробные дни при входе переходят в аккаунт. Автопродления нет: ничего не списывается само.
 - **Оплата** — Telegram Stars или TON, картой пока нельзя. В первые 14 дней после оплаты деньги возвращаются без объяснений ([условия](https://uncork.win/terms.html)).
 - **Один доступ — один Mac.** Перенос на другой Mac — по письму на hello@uncork.win.
-- **Ключ драйвера** живёт неделю и не переживает оплаченное время больше чем на час. Пока есть сеть, приложение продлевает его само, поэтому без интернета можно играть до семи дней. Когда оплаченное время кончается, игры не запускаются; приложение при этом открывается, а бутылка, Steam и игры на диске остаются вашими.
+- **Ключ драйвера** живёт неделю и не переживает оплаченное время больше чем на час (у разовой покупки срока нет). Пока есть сеть, приложение продлевает его само, поэтому без интернета можно играть до семи дней. Когда оплаченное время кончается, игры не запускаются; приложение при этом открывается, а бутылка, Steam и игры на диске остаются вашими.
 
 ## Требования
 
@@ -101,18 +101,18 @@ Valve официально не поддерживает запуск через
 
 # Uncork (English)
 
-Uncork is a paid Mac app for Apple Silicon: it runs Windows games from Steam and Epic. Seven days free with no sign-up, then €5 a month or €50 a year.
+Uncork is a paid Mac app for Apple Silicon: it runs Windows games from Steam and Epic. Seven days free with no sign-up, then €2.50 a month, €25 a year, or €42 once with no end date.
 
-It is a paid app, not a free one: only the trial, seven days, is free. It needs a Mac with Apple Silicon (M1 and later) and macOS 14 or later. The app is in beta (a prerelease build); the current version is **0.19.4**, released on 3 October 2026. This page was checked against the website on **3 October 2026**.
+It is a paid app, not a free one: only the trial, seven days, is free. It needs a Mac with Apple Silicon (M1 and later) and macOS 14 or later. The app is in beta (a prerelease build); the current version is **0.19.5**, released on 4 October 2026. This page was checked against the website on **4 October 2026**.
 
 The description, price and download are on **[uncork.win](https://uncork.win/en/)**. This repository is a pointer page to the site: it holds no source code and no builds. The app's source code is not published. Other public GitHub projects called Uncork are not this app and not ours.
 
 ## Price and access
 
-- **5 € a month or 50 € a year.** The first seven days are free and need no account: the count starts when you press “Start 7 days free” in the app on this Mac. There is one trial per Mac — for that, the app sends a fingerprint of the Mac. You need an account once you decide to stay: you pay in your profile on the site, and signing in moves the trial days you have left to the account. There is no auto-renewal: nothing is charged by itself.
+- **€2.50 a month, €25 a year, or €42 once.** The one-time purchase gives access with no end date and every update before version 2.0 (all 0.x and 1.x versions); it does not promise that Uncork works on macOS 28 or later, where Apple keeps Rosetta only for certain older games. The first seven days are free and need no account: the count starts when you press “Start 7 days free” in the app on this Mac. There is one trial per Mac — for that, the app sends a fingerprint of the Mac. You need an account once you decide to stay: you pay in your profile on the site, and signing in moves the trial days you have left to the account. There is no auto-renewal: nothing is charged by itself.
 - **Payment** is by Telegram Stars or TON; a card is not available yet. For the first 14 days after a payment your money is returned with no reasons asked ([the terms](https://uncork.win/terms.html)).
 - **One access, one Mac.** To move it to another Mac, write to hello@uncork.win.
-- **The driver key** lives for a week and never outlives your paid time by more than an hour. While there is a network the app renews it by itself, so you can play offline for up to seven days. When the paid time runs out, games stop launching; the app itself still opens, and the bottle, Steam and games on disk stay yours.
+- **The driver key** lives for a week and never outlives your paid time by more than an hour (the one-time purchase has no end date). While there is a network the app renews it by itself, so you can play offline for up to seven days. When the paid time runs out, games stop launching; the app itself still opens, and the bottle, Steam and games on disk stay yours.
 
 ## Requirements
 
