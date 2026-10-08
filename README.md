@@ -2,16 +2,16 @@
 
 Uncork — бесплатное приложение для Mac на Apple Silicon: запускает Windows-игры из Steam и Epic, без аккаунта. Uncork Pro — 19 € разово, без срока: мышь прямо с устройства, «Ровные кадры», панель поверх игры, Assetto Corsa в один клик и отдача руля.
 
-Нужен Mac с Apple Silicon (M1 и новее) и macOS 14 или новее. Актуальная версия — **1.0.5** от 6 октября 2026. Эта страница сверена с сайтом **6 октября 2026**.
+Нужен Mac с Apple Silicon (M1 и новее) и macOS 14 или новее. Актуальная версия — **1.2.1** от 8 октября 2026. Эта страница сверена с сайтом **8 октября 2026**. Сайт переехал с uncork.win на uncorkmac.com (старые ссылки ведут на новый адрес).
 
-Описание, цена и скачивание — на сайте **[uncork.win](https://uncork.win)**. Этот репозиторий — страница-указатель на сайт: в нём нет ни исходного кода, ни сборок. Исходный код приложения не опубликован. Другие публичные проекты на GitHub с названием Uncork — не это приложение и не наши.
+Описание, цена и скачивание — на сайте **[uncorkmac.com](https://uncorkmac.com)**. Этот репозиторий — страница-указатель на сайт: в нём нет ни исходного кода, ни сборок. Исходный код приложения не опубликован. Другие публичные проекты на GitHub с названием Uncork — не это приложение и не наши.
 
 English version: [below](#uncork-english).
 
 ## Цена и доступ
 
-- **Бесплатно, без аккаунта:** запуск игр, Steam и Epic, бутылки, «Разобраться» и починки, оптимизации Steam, Game Mode, режим геймпада, проверка мыши. **Uncork Pro — 19 € разово**, без срока, все обновления до версии 2.0 (все версии 1.x); работу на macOS 28 и новее он не обещает: Apple оставляет там Rosetta только для отдельных старых игр. Pro можно попробовать 7 дней: Uncork один раз предложит пробу после первой игры; отпечаток Mac уходит на сервер только по нажатию «Попробовать Pro», чтобы проба была одна на Mac. Аккаунт нужен только для покупки Pro. Автопродления нет.
-- **Оплата Pro** — Telegram Stars или криптовалюта (USDT, TON, BTC и другие), картой пока нельзя. В первые 14 дней после оплаты деньги возвращаются без объяснений ([условия](https://uncork.win/terms.html)).
+- **Бесплатно, без аккаунта:** запуск игр, Steam и Epic, бутылки, «Разобраться» и починки, оптимизации Steam, Game Mode, режим геймпада, проверка мыши. **Uncork Pro — 19 € разово**, без срока, все версии 1.x; работу на macOS 28 и новее он не обещает: Apple оставляет там Rosetta только для отдельных старых игр. Pro можно попробовать 7 дней: Uncork один раз предложит пробу после первой игры; отпечаток Mac уходит на сервер только по нажатию «Попробовать Pro», чтобы проба была одна на Mac. Аккаунт нужен только для покупки Pro. Автопродления нет.
+- **Оплата Pro** — Telegram Stars или криптовалюта (USDT, TON, BTC и другие), картой пока нельзя. В первые 14 дней после оплаты деньги возвращаются без объяснений ([условия](https://uncorkmac.com/terms.html)).
 - **Один доступ — один Mac.** Перенос на другой Mac — по письму на hello@uncork.win.
 - **Ключ Pro** живёт неделю, и пока есть сеть, приложение продлевает его само, поэтому Pro работает без интернета до семи дней. Сами игры запускаются без всякого ключа.
 
@@ -35,31 +35,31 @@ English version: [below](#uncork-english).
 | Режим геймпада | DualSense, DualShock 4 или геймпад Xbox водит курсор по маку, пока игра не запущена. Нужно необязательное разрешение «Универсальный доступ». |
 | Отдача руля Logitech | G923 (версия для PlayStation и ПК) проверен вживую в Assetto Corsa; G29 поддержан в коде, вживую не проверялся. Версия G923 для Xbox и другие рули не проверялись. |
 
-У других приложений, по прочитанным нами страницам на 29 сентября 2026, чтение мыши с устройства не упоминается; подробности и оговорки — на [странице сравнения](https://uncork.win/compare.html). Слой совместимости стоит кадров: Uncork не сделает из ноутбука игровой ПК, и мы не обещаем «как на Windows».
+У других приложений, по прочитанным нами страницам на 29 сентября 2026, чтение мыши с устройства не упоминается; подробности и оговорки — на [странице сравнения](https://uncorkmac.com/compare.html). Слой совместимости стоит кадров: Uncork не сделает из ноутбука игровой ПК, и мы не обещаем «как на Windows».
 
 ## Что проверено
 
-- Семь игр мы запускали сами, а из магазинов проверены Steam и Epic Games Store (сам магазин, а не весь его каталог). Каждая игра — с замером или пометкой «кадры не измеряли», машиной и датой — на странице [«Игры»](https://uncork.win/games.html) (машиночитаемая копия: [games.json](https://uncork.win/games.json)). Counter-Strike 2: наш замер 30 сентября 2026 — 102–147 fps на Dust II на эталонной машине (ниже); условия и все записи с датами — на странице [CS2 на Mac](https://uncork.win/cs2.html).
+- Семь игр мы запускали сами, а из магазинов проверены Steam и Epic Games Store (сам магазин, а не весь его каталог). Каждая игра — с замером или пометкой «кадры не измеряли», машиной и датой — на странице [«Игры»](https://uncorkmac.com/games.html) (машиночитаемая копия: [games.json](https://uncorkmac.com/games.json)). Counter-Strike 2: наш замер 30 сентября 2026 — 102–147 fps на Dust II на эталонной машине (ниже); условия и все записи с датами — на странице [CS2 на Mac](https://uncorkmac.com/cs2.html).
 - Ubisoft Connect, EA app, Battle.net, GOG Galaxy и Rockstar Games в приложении есть, но работу в них мы не проверяли.
 - Игры, которых нет в списке, — «не знаем», а не «не работает». Многие, вероятно, запустятся, но мы этого не обещаем: проверить свою можно за семь пробных дней.
 - Все замеры кадров сняты на одной машине — эталонной: MacBook Pro 14″ (Mac15,6), Apple M3 Pro, 14-ядерный GPU, 18 ГБ, macOS 26. На другом Mac и в другой сцене числа будут другими. Подробные записи — на страницах CS2 и «Игры».
 
 ## Что не запустится
 
-Игры с античитом уровня ядра: Valorant, Fortnite, Apex Legends, Destiny 2, PUBG, Rainbow Six Siege и новые части Call of Duty. Это не настройка и не ошибка, которую починят позже: у macOS нет ядра Windows, куда такой драйвер можно поставить. Uncork защиту не обходит и обходить не будет; в библиотеке такие игры помечаются, а перед скачиванием Uncork спрашивает, точно ли ставить. Список — на странице [«Игры с античитом»](https://uncork.win/anti-cheat.html).
+Игры с античитом уровня ядра: Valorant, Fortnite, Apex Legends, Destiny 2, PUBG, Rainbow Six Siege и новые части Call of Duty. Это не настройка и не ошибка, которую починят позже: у macOS нет ядра Windows, куда такой драйвер можно поставить. Uncork защиту не обходит и обходить не будет; в библиотеке такие игры помечаются, а перед скачиванием Uncork спрашивает, точно ли ставить. Список — на странице [«Игры с античитом»](https://uncorkmac.com/anti-cheat.html).
 
 Valve официально не поддерживает запуск через слой совместимости, поэтому гарантий по блокировкам аккаунта никто дать не может.
 
 ## Что стоит знать до установки
 
-- **Приложение не нотаризовано Apple** (оно подписано сертификатом Apple Development, не Developer ID). Первый запуск macOS не разрешит: Системные настройки → Конфиденциальность и безопасность → «Всё равно открыть». Правый клик → «Открыть» в новых macOS не помогает. Пошагово — на странице [«Вопросы»](https://uncork.win/faq.html).
-- **Код закрыт.** Если нужна открытая программа, программа с нотаризацией или большая база проверенных игр, Uncork не подойдёт; сравнение с датой проверки данных — на странице [«Сравнение»](https://uncork.win/compare.html).
-- **Главный риск проекта — Rosetta.** По сообщениям Apple, macOS 27 — последняя версия с полной Rosetta; Uncork сегодня работает поверх неё. Что с этим делать — на странице [«Rosetta и macOS 27»](https://uncork.win/rosetta-macos-27.html).
+- **Приложение нотаризовано Apple** (с версии 1.0.12 подписано Developer ID), поэтому открывается как обычная программа для Mac.
+- **Код закрыт.** Если нужна открытая программа или большая база проверенных игр, Uncork не подойдёт; сравнение с датой проверки данных — на странице [«Сравнение»](https://uncorkmac.com/compare.html).
+- **Главный риск проекта — Rosetta.** По сообщениям Apple, macOS 27 — последняя версия с полной Rosetta; Uncork сегодня работает поверх неё. Что с этим делать — на странице [«Rosetta и macOS 27»](https://uncorkmac.com/rosetta-macos-27.html).
 - Подходит, если вы играете в одиночные игры или гонки, готовы платить и хотите мышь с устройства и ровные кадры. Скорость других приложений мы не сравнивали.
 
 ## Где скачать и как начать
 
-1. Скачайте приложение кнопкой «Скачать» на **[uncork.win](https://uncork.win)** — вход и регистрация для этого не нужны.
+1. Скачайте приложение кнопкой «Скачать» на **[uncorkmac.com](https://uncorkmac.com)** — вход и регистрация для этого не нужны.
 2. Установите приложение и подтвердите первый запуск в системных настройках (см. выше).
 3. Войдите в Steam внутри Uncork и поставьте игру. Игра запускается сразу; после первой игры Uncork один раз предложит попробовать Pro 7 дней — можно ответить «Не сейчас». Аккаунт на сайте нужен только для покупки Pro.
 
@@ -67,25 +67,25 @@ Valve официально не поддерживает запуск через
 
 | Страница | RU | EN |
 |---|---|---|
-| Главная | [uncork.win](https://uncork.win/) | [uncork.win/en](https://uncork.win/en/) |
-| Как играть в Windows-игры на Mac: все способы | [открыть](https://uncork.win/windows-games-on-mac.html) | [open](https://uncork.win/en/windows-games-on-mac.html) |
-| Counter-Strike 2 на Mac | [открыть](https://uncork.win/cs2.html) | [open](https://uncork.win/en/cs2.html) |
-| Почему прицел плавает на Mac (мышь) | [открыть](https://uncork.win/mouse.html) | [open](https://uncork.win/en/mouse.html) |
-| Вопросы и ответы | [открыть](https://uncork.win/faq.html) | [open](https://uncork.win/en/faq.html) |
-| Проверенные игры | [открыть](https://uncork.win/games.html) | [open](https://uncork.win/en/games.html) |
-| Игры с античитом | [открыть](https://uncork.win/anti-cheat.html) | [open](https://uncork.win/en/anti-cheat.html) |
-| Сравнение с другими приложениями | [открыть](https://uncork.win/compare.html) | [open](https://uncork.win/en/compare.html) |
-| Чем заменить Whisky | [открыть](https://uncork.win/whisky-alternative.html) | [open](https://uncork.win/en/whisky-alternative.html) |
-| Assetto Corsa на Mac | [открыть](https://uncork.win/assetto-corsa.html) | [open](https://uncork.win/en/assetto-corsa.html) |
-| Rosetta и macOS 27 | [открыть](https://uncork.win/rosetta-macos-27.html) | [open](https://uncork.win/en/rosetta-macos-27.html) |
-| Что Uncork отправляет | [открыть](https://uncork.win/what-uncork-sends.html) | [open](https://uncork.win/en/what-uncork-sends.html) |
-| Что нового (по версиям) | [открыть](https://uncork.win/changelog.html) | [open](https://uncork.win/en/changelog.html) |
+| Главная | [uncorkmac.com](https://uncorkmac.com/) | [uncorkmac.com/en](https://uncorkmac.com/en/) |
+| Как играть в Windows-игры на Mac: все способы | [открыть](https://uncorkmac.com/windows-games-on-mac.html) | [open](https://uncorkmac.com/en/windows-games-on-mac.html) |
+| Counter-Strike 2 на Mac | [открыть](https://uncorkmac.com/cs2.html) | [open](https://uncorkmac.com/en/cs2.html) |
+| Почему прицел плавает на Mac (мышь) | [открыть](https://uncorkmac.com/mouse.html) | [open](https://uncorkmac.com/en/mouse.html) |
+| Вопросы и ответы | [открыть](https://uncorkmac.com/faq.html) | [open](https://uncorkmac.com/en/faq.html) |
+| Проверенные игры | [открыть](https://uncorkmac.com/games.html) | [open](https://uncorkmac.com/en/games.html) |
+| Игры с античитом | [открыть](https://uncorkmac.com/anti-cheat.html) | [open](https://uncorkmac.com/en/anti-cheat.html) |
+| Сравнение с другими приложениями | [открыть](https://uncorkmac.com/compare.html) | [open](https://uncorkmac.com/en/compare.html) |
+| Чем заменить Whisky | [открыть](https://uncorkmac.com/whisky-alternative.html) | [open](https://uncorkmac.com/en/whisky-alternative.html) |
+| Assetto Corsa на Mac | [открыть](https://uncorkmac.com/assetto-corsa.html) | [open](https://uncorkmac.com/en/assetto-corsa.html) |
+| Rosetta и macOS 27 | [открыть](https://uncorkmac.com/rosetta-macos-27.html) | [open](https://uncorkmac.com/en/rosetta-macos-27.html) |
+| Что Uncork отправляет | [открыть](https://uncorkmac.com/what-uncork-sends.html) | [open](https://uncorkmac.com/en/what-uncork-sends.html) |
+| Что нового (по версиям) | [открыть](https://uncorkmac.com/changelog.html) | [open](https://uncorkmac.com/en/changelog.html) |
 
-Политика конфиденциальности и условия: [privacy](https://uncork.win/privacy.html), [terms](https://uncork.win/terms.html) (русский и английский текст на одной странице).
+Политика конфиденциальности и условия: [privacy](https://uncorkmac.com/privacy.html), [terms](https://uncorkmac.com/terms.html) (русский и английский текст на одной странице).
 
 ## Приватность
 
-Приложение обращается к нашему серверу ради Pro и обновлений; названия игр, время игры, файлы и пароль Steam не отправляются, сторонней аналитики нет, а сервер отмечает лишь служебные шаги (вышло на связь, выдан ключ Pro, начат вход) — полный список соединений на странице [«Что Uncork отправляет»](https://uncork.win/what-uncork-sends.html).
+Приложение обращается к нашему серверу ради Pro и обновлений; названия игр, время игры, файлы и пароль Steam не отправляются, сторонней аналитики нет, а сервер отмечает лишь служебные шаги (вышло на связь, выдан ключ Pro, начат вход) — полный список соединений на странице [«Что Uncork отправляет»](https://uncorkmac.com/what-uncork-sends.html).
 
 ## Лицензии
 
@@ -103,14 +103,14 @@ Valve официально не поддерживает запуск через
 
 Uncork is a free Mac app for Apple Silicon: it runs Windows games from Steam and Epic, with no account. Uncork Pro is €19 once, with no end date: the mouse read straight from the device, Even frames, the in-game panel, Assetto Corsa in one click and wheel force feedback.
 
-It needs a Mac with Apple Silicon (M1 and later) and macOS 14 or later. The current version is **1.0.5**, released on 6 October 2026. This page was checked against the website on **6 October 2026**.
+It needs a Mac with Apple Silicon (M1 and later) and macOS 14 or later. The current version is **1.2.1**, released on 8 October 2026. This page was checked against the website on **8 October 2026**. The site moved from uncork.win to uncorkmac.com (old links redirect).
 
-The description, price and download are on **[uncork.win](https://uncork.win/en/)**. This repository is a pointer page to the site: it holds no source code and no builds. The app's source code is not published. Other public GitHub projects called Uncork are not this app and not ours.
+The description, price and download are on **[uncorkmac.com](https://uncorkmac.com/en/)**. This repository is a pointer page to the site: it holds no source code and no builds. The app's source code is not published. Other public GitHub projects called Uncork are not this app and not ours.
 
 ## Price and access
 
-- **Free, no account:** launching games, Steam and Epic, bottles, Find out why and fixes, Steam optimizations, Game Mode, gamepad mode, the mouse check. **Uncork Pro is €19 once**, with no end date and every update before version 2.0 (all 1.x versions); it does not promise that Uncork works on macOS 28 or later, where Apple keeps Rosetta only for certain older games. You can try Pro for 7 days: Uncork offers the trial once, after your first game, and the Mac's fingerprint goes to the server only if you press “Try Pro”, so there is one trial per Mac. You need an account only to buy Pro. There is no auto-renewal.
-- **Paying for Pro** is by Telegram Stars or crypto (USDT, TON, BTC and more); a card is not available yet. For the first 14 days after a payment your money is returned with no reasons asked ([the terms](https://uncork.win/terms.html)).
+- **Free, no account:** launching games, Steam and Epic, bottles, Find out why and fixes, Steam optimizations, Game Mode, gamepad mode, the mouse check. **Uncork Pro is €19 once**, with no end date, every 1.x version; it does not promise that Uncork works on macOS 28 or later, where Apple keeps Rosetta only for certain older games. You can try Pro for 7 days: Uncork offers the trial once, after your first game, and the Mac's fingerprint goes to the server only if you press “Try Pro”, so there is one trial per Mac. You need an account only to buy Pro. There is no auto-renewal.
+- **Paying for Pro** is by Telegram Stars or crypto (USDT, TON, BTC and more); a card is not available yet. For the first 14 days after a payment your money is returned with no reasons asked ([the terms](https://uncorkmac.com/terms.html)).
 - **One access, one Mac.** To move it to another Mac, write to hello@uncork.win.
 - **The Pro key** lives for a week and the app renews it by itself while there is a network, so Pro works offline for up to seven days. Games themselves launch without any key.
 
@@ -134,31 +134,31 @@ We do not promise to run everything. The work goes into how a game feels.
 | Gamepad mode | A DualSense, DualShock 4 or Xbox controller drives the Mac's pointer while no game is running. It uses the optional “Accessibility” permission. |
 | Logitech wheel force feedback | The G923 (PlayStation and PC version) is tested live in Assetto Corsa; the G29 is supported in code but not tested on real hardware. The Xbox version of the G923 and other wheels have not been tested. |
 
-In the pages of other apps we read on 29 September 2026, reading the mouse from the device is not mentioned; details and caveats are on [the Compare page](https://uncork.win/en/compare.html). A compatibility layer costs frames: Uncork will not turn a laptop into a gaming PC, and we do not promise “like on Windows”.
+In the pages of other apps we read on 29 September 2026, reading the mouse from the device is not mentioned; details and caveats are on [the Compare page](https://uncorkmac.com/en/compare.html). A compatibility layer costs frames: Uncork will not turn a laptop into a gaming PC, and we do not promise “like on Windows”.
 
 ## What has been tested
 
-- We have run seven games ourselves, and of the stores, Steam and the Epic Games Store are tested (the store itself, not its whole catalogue). Each game, with a measurement or a “frame rate not measured” note, the machine and the date, is on [the Games page](https://uncork.win/en/games.html) (machine-readable copy: [games.json](https://uncork.win/games.json)). Counter-Strike 2: our measurement on 30 September 2026 — 102–147 fps on Dust II on the reference machine (below); the conditions and all dated records are on [CS2 on a Mac](https://uncork.win/en/cs2.html).
+- We have run seven games ourselves, and of the stores, Steam and the Epic Games Store are tested (the store itself, not its whole catalogue). Each game, with a measurement or a “frame rate not measured” note, the machine and the date, is on [the Games page](https://uncorkmac.com/en/games.html) (machine-readable copy: [games.json](https://uncorkmac.com/games.json)). Counter-Strike 2: our measurement on 30 September 2026 — 102–147 fps on Dust II on the reference machine (below); the conditions and all dated records are on [CS2 on a Mac](https://uncorkmac.com/en/cs2.html).
 - Ubisoft Connect, EA app, Battle.net, GOG Galaxy and Rockstar Games are in the app, but we have not tested them.
 - A game that is not on the list is “unknown”, not “broken”. Many will probably start, but we do not promise it: Uncork is free, so you can simply try yours.
 - All frame-rate measurements were taken on one machine, the reference one: a MacBook Pro 14″ (Mac15,6), Apple M3 Pro, 14-core GPU, 18 GB, macOS 26. On another Mac and in another scene the numbers will differ. Detailed records are on the CS2 and Games pages.
 
 ## What will not run
 
-Games with kernel-level anti-cheat: Valorant, Fortnite, Apex Legends, Destiny 2, PUBG, Rainbow Six Siege and recent Call of Duty titles. It is not a setting or a bug that will be fixed later: macOS has no Windows kernel to put such a driver in. Uncork does not bypass such protection and will not; the library marks such games, and before downloading one Uncork asks whether you really want it. The list is on [the anti-cheat page](https://uncork.win/en/anti-cheat.html).
+Games with kernel-level anti-cheat: Valorant, Fortnite, Apex Legends, Destiny 2, PUBG, Rainbow Six Siege and recent Call of Duty titles. It is not a setting or a bug that will be fixed later: macOS has no Windows kernel to put such a driver in. Uncork does not bypass such protection and will not; the library marks such games, and before downloading one Uncork asks whether you really want it. The list is on [the anti-cheat page](https://uncorkmac.com/en/anti-cheat.html).
 
 Valve does not officially support running the game through a compatibility layer, so nobody can promise you against account bans.
 
 ## Before you install
 
-- **The app is not notarized by Apple** (it is signed with an Apple Development certificate, not Developer ID). macOS will not open it the first time: System Settings → Privacy & Security → “Open Anyway”. Right-click → “Open” no longer helps in recent versions of macOS. Step by step on [the FAQ page](https://uncork.win/en/faq.html).
-- **Closed source.** If you need an open-source app, a notarized one, or a large database of tested games, Uncork does not fit; the comparison, with its date of checking, is on [the Compare page](https://uncork.win/en/compare.html).
-- **The project's main risk is Rosetta.** According to Apple, macOS 27 is the last version with full Rosetta; Uncork runs on top of it today. What to do about it: [Rosetta and macOS 27](https://uncork.win/en/rosetta-macos-27.html).
+- **The app is notarized by Apple** (signed with Developer ID since 1.0.12), so it opens like any other Mac app.
+- **Closed source.** If you need an open-source app or a large database of tested games, Uncork does not fit; the comparison, with its date of checking, is on [the Compare page](https://uncorkmac.com/en/compare.html).
+- **The project's main risk is Rosetta.** According to Apple, macOS 27 is the last version with full Rosetta; Uncork runs on top of it today. What to do about it: [Rosetta and macOS 27](https://uncorkmac.com/en/rosetta-macos-27.html).
 - It fits if you play single-player games or racing games, are ready to pay, and want the mouse read from the device and evened-out frames. We have not compared other apps' speed.
 
 ## Where to download and how to start
 
-1. Download the app with the Download button on **[uncork.win](https://uncork.win/en/)** — no sign-in or sign-up needed.
+1. Download the app with the Download button on **[uncorkmac.com](https://uncorkmac.com/en/)** — no sign-in or sign-up needed.
 2. Install the app and confirm the first launch in System Settings (see above).
 3. Sign in to Steam inside Uncork and install a game. The game starts right away; after your first game Uncork offers a 7-day Pro trial once — you can answer “Not now”. You need an account on the site only to buy Pro.
 
@@ -166,25 +166,25 @@ Valve does not officially support running the game through a compatibility layer
 
 | Page | RU | EN |
 |---|---|---|
-| Home | [uncork.win](https://uncork.win/) | [uncork.win/en](https://uncork.win/en/) |
-| How to play Windows games on a Mac: every method | [RU](https://uncork.win/windows-games-on-mac.html) | [EN](https://uncork.win/en/windows-games-on-mac.html) |
-| Counter-Strike 2 on a Mac | [RU](https://uncork.win/cs2.html) | [EN](https://uncork.win/en/cs2.html) |
-| Why aim feels floaty on a Mac (the mouse) | [RU](https://uncork.win/mouse.html) | [EN](https://uncork.win/en/mouse.html) |
-| FAQ | [RU](https://uncork.win/faq.html) | [EN](https://uncork.win/en/faq.html) |
-| Games we have tested | [RU](https://uncork.win/games.html) | [EN](https://uncork.win/en/games.html) |
-| Anti-cheat games | [RU](https://uncork.win/anti-cheat.html) | [EN](https://uncork.win/en/anti-cheat.html) |
-| Comparison with other apps | [RU](https://uncork.win/compare.html) | [EN](https://uncork.win/en/compare.html) |
-| What to use instead of Whisky | [RU](https://uncork.win/whisky-alternative.html) | [EN](https://uncork.win/en/whisky-alternative.html) |
-| Assetto Corsa on a Mac | [RU](https://uncork.win/assetto-corsa.html) | [EN](https://uncork.win/en/assetto-corsa.html) |
-| Rosetta and macOS 27 | [RU](https://uncork.win/rosetta-macos-27.html) | [EN](https://uncork.win/en/rosetta-macos-27.html) |
-| What Uncork sends | [RU](https://uncork.win/what-uncork-sends.html) | [EN](https://uncork.win/en/what-uncork-sends.html) |
-| Changelog | [RU](https://uncork.win/changelog.html) | [EN](https://uncork.win/en/changelog.html) |
+| Home | [uncorkmac.com](https://uncorkmac.com/) | [uncorkmac.com/en](https://uncorkmac.com/en/) |
+| How to play Windows games on a Mac: every method | [RU](https://uncorkmac.com/windows-games-on-mac.html) | [EN](https://uncorkmac.com/en/windows-games-on-mac.html) |
+| Counter-Strike 2 on a Mac | [RU](https://uncorkmac.com/cs2.html) | [EN](https://uncorkmac.com/en/cs2.html) |
+| Why aim feels floaty on a Mac (the mouse) | [RU](https://uncorkmac.com/mouse.html) | [EN](https://uncorkmac.com/en/mouse.html) |
+| FAQ | [RU](https://uncorkmac.com/faq.html) | [EN](https://uncorkmac.com/en/faq.html) |
+| Games we have tested | [RU](https://uncorkmac.com/games.html) | [EN](https://uncorkmac.com/en/games.html) |
+| Anti-cheat games | [RU](https://uncorkmac.com/anti-cheat.html) | [EN](https://uncorkmac.com/en/anti-cheat.html) |
+| Comparison with other apps | [RU](https://uncorkmac.com/compare.html) | [EN](https://uncorkmac.com/en/compare.html) |
+| What to use instead of Whisky | [RU](https://uncorkmac.com/whisky-alternative.html) | [EN](https://uncorkmac.com/en/whisky-alternative.html) |
+| Assetto Corsa on a Mac | [RU](https://uncorkmac.com/assetto-corsa.html) | [EN](https://uncorkmac.com/en/assetto-corsa.html) |
+| Rosetta and macOS 27 | [RU](https://uncorkmac.com/rosetta-macos-27.html) | [EN](https://uncorkmac.com/en/rosetta-macos-27.html) |
+| What Uncork sends | [RU](https://uncorkmac.com/what-uncork-sends.html) | [EN](https://uncorkmac.com/en/what-uncork-sends.html) |
+| Changelog | [RU](https://uncorkmac.com/changelog.html) | [EN](https://uncorkmac.com/en/changelog.html) |
 
-Privacy policy and terms: [privacy](https://uncork.win/privacy.html), [terms](https://uncork.win/terms.html) (Russian and English text on one page).
+Privacy policy and terms: [privacy](https://uncorkmac.com/privacy.html), [terms](https://uncorkmac.com/terms.html) (Russian and English text on one page).
 
 ## Privacy
 
-The app talks to our server for access and updates; game titles, play time, files and your Steam password are not sent, there is no third-party analytics, and the server notes only service steps (the app got in touch, a driver key was issued, a sign-in was started) — the full list of connections is on [What Uncork sends](https://uncork.win/en/what-uncork-sends.html).
+The app talks to our server for access and updates; game titles, play time, files and your Steam password are not sent, there is no third-party analytics, and the server notes only service steps (the app got in touch, a driver key was issued, a sign-in was started) — the full list of connections is on [What Uncork sends](https://uncorkmac.com/en/what-uncork-sends.html).
 
 ## Licences
 
