@@ -77,10 +77,12 @@ Valve не даёт гарантий для запуска CS2 через сло
 ### Homebrew
 
 ```sh
-brew install --cask aonetimeusername/uncork/uncork
+brew tap aonetimeusername/uncork
+brew trust aonetimeusername/uncork
+brew install --cask uncork
 ```
 
-Это наш tap: он указывает на тот же нотаризованный DMG с uncorkmac.com.
+Это наш tap: он указывает на тот же нотаризованный DMG с uncorkmac.com. Команда `brew trust` нужна один раз: свежий Homebrew загружает формулы из сторонних tap только после неё.
 
 ## Страницы сайта
 
@@ -196,10 +198,12 @@ Valve gives no guarantees for running CS2 through a compatibility layer; we have
 ### Homebrew
 
 ```sh
-brew install --cask aonetimeusername/uncork/uncork
+brew tap aonetimeusername/uncork
+brew trust aonetimeusername/uncork
+brew install --cask uncork
 ```
 
-This is our tap: it points to the same notarized DMG from uncorkmac.com.
+This is our tap: it points to the same notarized DMG from uncorkmac.com. `brew trust` is needed once: current Homebrew loads casks from third-party taps only after it.
 
 ## Pages of the site
 
