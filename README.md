@@ -2,7 +2,7 @@
 
 Uncork — бесплатное приложение для Mac на Apple Silicon: запускает Windows-игры из Steam и Epic через слой совместимости, без аккаунта и без ограничения по времени. Дополнительные функции входят в Uncork Pro.
 
-Актуальная версия — **1.5.6 от 26 октября 2026** ([список версий](https://uncorkmac.com/changelog.html)). Эта страница сверена с сайтом **4 ноября 2026**.
+Актуальная версия — **1.6.4 от 10 ноября 2026** ([список версий](https://uncorkmac.com/changelog.html)). Эта страница сверена с сайтом **4 ноября 2026**.
 
 Описание, цена и скачивание — на сайте **[uncorkmac.com](https://uncorkmac.com/)**. Этот репозиторий — страница-указатель на сайт: в нём нет ни исходного кода, ни сборок. Исходный код приложения не опубликован. Другие публичные проекты на GitHub с названием Uncork — не это приложение и не наши.
 
@@ -125,7 +125,7 @@ brew install --cask uncork
 
 Uncork is a free Mac app for Apple Silicon: it runs Windows games from Steam and Epic through a compatibility layer, with no account and no time limit. Extra features are part of Uncork Pro.
 
-The current version is **1.5.6, released on 26 October 2026** ([changelog](https://uncorkmac.com/en/changelog.html)). This page was checked against the website on **4 November 2026**.
+The current version is **1.6.4, released on 10 November 2026** ([changelog](https://uncorkmac.com/en/changelog.html)). This page was checked against the website on **4 November 2026**.
 
 The description, price and download are on **[uncorkmac.com](https://uncorkmac.com/en/)**. This repository is a pointer page to the site: it holds no source code and no builds. The app's source code is not published. Other public GitHub projects called Uncork are not this app and not ours.
 
