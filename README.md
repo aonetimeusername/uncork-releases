@@ -74,6 +74,14 @@ Valve не даёт гарантий для запуска CS2 через сло
 2. Установите и откройте Uncork. Приложение подписано и нотаризовано Apple.
 3. Войдите в Steam внутри Uncork и поставьте игру. Запуск игр бесплатный. Для раннего доступа к Pro нажмите «Включить Pro — до 31 января»; срок и условия приведены выше.
 
+### Одна команда в Терминале
+
+```sh
+curl -fsSL https://uncorkmac.com/install.sh | sh
+```
+
+Скрипт скачивает образ с uncorkmac.com, сверяет SHA-256, проверяет подпись Developer ID (команда PJC7K6A3U5) и нотаризацию Apple, копирует Uncork в «Программы» и открывает его. Без sudo и без аккаунта; установленную копию не трогает. Что делает каждая строка и что нужно знать ИИ-агенту — на странице [Установка из Терминала](https://uncorkmac.com/install.html).
+
 ### Homebrew
 
 ```sh
@@ -194,6 +202,14 @@ Valve gives no guarantees for running CS2 through a compatibility layer; we have
 1. Download the app with the Download button on **[uncorkmac.com](https://uncorkmac.com/en/)** — no sign-in or sign-up needed.
 2. Install and open Uncork. The app is signed and notarized by Apple.
 3. Sign in to Steam inside Uncork and install a game. Running games is free. For Pro early access, press “Turn on Pro — until 31 January”; the dates and conditions are above.
+
+### One Terminal command
+
+```sh
+curl -fsSL https://uncorkmac.com/install.sh | sh
+```
+
+The script downloads the image from uncorkmac.com, compares its SHA-256, checks the Developer ID signature (team PJC7K6A3U5) and Apple's notarization, copies Uncork to Applications and opens it. No sudo and no account; an installed copy is left alone. What each step does, and what an AI agent needs to know, is on the page [Install from the Terminal](https://uncorkmac.com/en/install.html).
 
 ### Homebrew
 
