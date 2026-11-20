@@ -1,24 +1,20 @@
 # Uncork
 
-Uncork бесплатно запускает совместимые Windows-игры из вашей библиотеки Steam на Mac с Apple Silicon и macOS 14 или новее. Аккаунт Uncork, подписка и покупка Pro для этого не нужны. Для Epic Games Store мы проверили установку клиента, вход и установку игр. Наши проверки запуска игр относятся к версиям из Steam. [Установка](https://uncorkmac.com/install.html) · [Проверить игру в каталоге](https://uncorkmac.com/games.html)
+**Запуск совместимых Windows-игр в Uncork бесплатен и останется бесплатным.** Играйте из своей библиотеки Steam на Mac с Apple Silicon и macOS 14 или новее. Аккаунт Uncork и подписка для этого не нужны. Для Epic Games Store мы проверили установку клиента, вход и установку игр. Наши проверки запуска игр относятся к версиям из Steam. [Установка](https://uncorkmac.com/install.html) · [Проверить игру в каталоге](https://uncorkmac.com/games.html)
 
 Публичная версия на 20 ноября 2026 года — **1.7.3.1** от 16 ноября. Образ подписан Developer ID и прошёл нотарификацию Apple. [Версия и SHA-256](https://uncorkmac.com/latest.json) · [История выпусков](https://uncorkmac.com/changelog.html)
 
-Описание, цена и скачивание — на сайте **[uncorkmac.com](https://uncorkmac.com/)**. Этот репозиторий — страница-указатель на сайт: в нём нет ни исходного кода, ни сборок. Исходный код приложения не опубликован. Другие публичные проекты на GitHub с названием Uncork — не это приложение и не наши.
+Сведения о приложении и ссылка для скачивания — на сайте **[uncorkmac.com](https://uncorkmac.com/)**. Этот репозиторий — страница-указатель на сайт: в нём нет ни исходного кода, ни сборок. Исходный код приложения не опубликован. Другие публичные проекты на GitHub с названием Uncork — не это приложение и не наши.
 
 English version: [below](#uncork-english).
 
-## Цена и доступ
+## Бесплатный запуск и дополнительные функции
 
-Актуальные условия бесплатной версии и раннего доступа к Pro опубликованы на сайте. [Цена и доступ](https://uncorkmac.com/#access) · [FAQ](https://uncorkmac.com/faq.html)
+Запускайте купленные игры и бесплатные игры из своей библиотеки Steam без оплаты Uncork. У каждой игры свои системные требования и условия магазина. В бесплатную версию входят установка Steam и компонентов Windows, выбор графики, диагностика запуска и проверка мыши. Перевод видимого текста доступен бесплатно на macOS 15 и новее.
 
-- **Бесплатно, без аккаунта Uncork и без срока:** запуск совместимых игр из Steam, установка клиента Epic, бутылки, библиотека и история запусков, «Разобраться» и обратимые починки, компоненты Windows (.NET, DirectX, шрифты), рецепты под игры, оптимизации Steam и совместимый звук, Game Mode, режим геймпада и настройка контроллеров, проверка мыши, отчёты сообщества, игры как отдельные приложения для Mac, избранное и свои обложки. Также бесплатны перевод поверх игры (бета, macOS 15 или новее), пауза игр, консольный режим, импорт из Whisky и ярлыки игр в Steam для Mac.
-- **Uncork Pro — 19 € разово**, без срока, все версии 1.x: мышь прямо с устройства, «Ровные кадры» для одиночных игр и ровные 60 от батареи, панель поверх игры, достройка кадров на MetalFX (бета, macOS 26, для одиночных игр), перемотка (бета, игры на DXMT), 4:3 на весь экран (для игр на Source 2, проверено в CS2), Content Manager в один клик и экран заезда Assetto Corsa, отдача руля Logitech G923. Купившие Pro получают новые версии раньше и прямую связь с разработчиком.
-- **До 31 января 2027 включительно Pro открыт всем в раннем доступе.** В приложении нажмите «Включить Pro — до 31 января»: без аккаунта и без оплаты, в том числе на Mac, где проба уже была. Работают все функции Pro; ранние сборки и прямая связь с разработчиком остаются у купивших. Текст кнопки — из [заметки к версии 1.5.6 от 26 октября 2026](https://uncorkmac.com/changelog.html).
-- **После этой даты** функции Pro выключатся у тех, кто его не купил; игры продолжат запускаться бесплатно. Новые маки получат обычную пробу Pro на 7 дней с момента, когда вы сами начнёте её в Uncork. Аккаунт для пробы не нужен, проба одна на Mac. При входе оставшиеся дни перейдут в аккаунт. Аккаунт нужен только для покупки Pro; автопродления нет.
-- **Оплата Pro** — Telegram Stars или криптовалюта (USDT, TON, BTC и другие), картой пока нельзя. В первые 14 дней после оплаты деньги возвращаются без объяснений; остальные условия возврата — в [условиях](https://uncorkmac.com/terms.html).
-- **Pro привязан к одному Mac.** Для переноса нажмите «Сменить мак» в профиле: привязка снимается сразу, если вы сами не меняли мак в последние 30 дней. Чаще — по письму на hello@uncork.win.
-- **Ключ Pro** живёт неделю и продлевается автоматически, пока есть сеть. Без интернета дольше недели Pro выключится до выхода в сеть; сами игры ключа не требуют.
+Дополнительные игровые функции, включая прямой ввод мыши и экран заезда Assetto Corsa, сейчас можно включить бесплатно в разделе Pro. В будущем отдельные дополнительные функции могут стать платными. Бесплатное использование не создаёт подписку и не влечёт автоматического списания.
+
+Ранее приобретённые лицензии Pro сохраняют права на версии 1.x на условиях покупки. Владельцам по-прежнему доступны вход в аккаунт и восстановление доступа. [Условия](https://uncorkmac.com/terms.html) · [Ответы на вопросы](https://uncorkmac.com/faq.html)
 
 ## Требования
 
@@ -76,7 +72,7 @@ Uncork использует Wine 10.0 ревизии 6 от Sikarugir с ком�
 
 1. Скачайте приложение кнопкой «Скачать» на **[uncorkmac.com](https://uncorkmac.com/)** — вход и регистрация не нужны.
 2. Установите и откройте Uncork. Приложение подписано и нотаризовано Apple.
-3. Войдите в Steam внутри Uncork и поставьте игру. Запуск игр бесплатный. Для раннего доступа к Pro нажмите «Включить Pro — до 31 января»; срок и условия приведены выше.
+3. Войдите в Steam внутри Uncork, установите игру из своей библиотеки и нажмите «Играть».
 
 ### Одна команда в Терминале
 
@@ -135,23 +131,19 @@ brew install --cask uncork
 
 # Uncork (English)
 
-Uncork runs compatible Windows games from your Steam library for free on Apple Silicon Macs with macOS 14 or later. Playing through Steam requires no Uncork account, subscription or Pro purchase. For the Epic Games Store, we tested client installation, sign-in and game installation. Our game-launch tests cover Steam versions. [Installation guide](https://uncorkmac.com/en/install.html) · [Check a game](https://uncorkmac.com/en/games.html)
+**Launching compatible Windows games with Uncork is free and will stay free.** Play from your Steam library on an Apple Silicon Mac running macOS 14 or later. You do not need an Uncork account or subscription to play. For the Epic Games Store, we tested client installation, sign-in and game installation. Our game-launch tests cover Steam versions. [Installation guide](https://uncorkmac.com/en/install.html) · [Check a game](https://uncorkmac.com/en/games.html)
 
 The public version on 20 November 2026 is **1.7.3.1**, released on 16 November. The disk image is Developer ID signed and notarized by Apple. [Version and SHA-256](https://uncorkmac.com/latest.json) · [Release notes](https://uncorkmac.com/en/changelog.html)
 
-The description, price and download are on **[uncorkmac.com](https://uncorkmac.com/en/)**. This repository is a pointer page to the site: it holds no source code and no builds. The app's source code is not published. Other public GitHub projects called Uncork are not this app and not ours.
+For details and downloads, visit **[uncorkmac.com](https://uncorkmac.com/en/)**. This repository is a pointer page to the site: it holds no source code and no builds. The app's source code is not published. Other public GitHub projects called Uncork are not this app and not ours.
 
-## Price and access
+## Free game launching and optional features
 
-The website lists the free features and the terms of Pro early access. [Pricing](https://uncorkmac.com/en/#access) · [FAQ](https://uncorkmac.com/en/faq.html)
+Use Uncork to launch games you own on Steam and free-to-play Steam games without paying for the launcher. Each game's store terms and system requirements still apply. Steam and Windows component setup, graphics selection, launch diagnostics and the mouse check are included for free. On-screen text translation is free on macOS 15 or later.
 
-- **Free, no Uncork account and no time limit:** running compatible Steam games, installing the Epic client, bottles, the library and launch history, Find out why and repairs you can undo, Windows components (.NET, DirectX, fonts), game recipes, Steam optimisations and compatible audio, Game Mode, gamepad mode and controller settings, the mouse check, community reports, games as separate Mac apps, Favorites and your own covers. Translation over a game (beta, macOS 15 or newer), pausing games, console mode, Import from Whisky and game shortcuts in Steam for Mac are free too.
-- **Uncork Pro is €19 once**, with no end date, every 1.x version: the mouse read straight from the device, Even frames for single-player games and an even 60 on battery, the in-game panel, MetalFX frame generation (beta, macOS 26, for single-player games), rewind (beta, games on DXMT), 4:3 on the whole screen (for Source 2 games, tested in CS2), one-click Content Manager and the race screen for Assetto Corsa, Logitech G923 force feedback. Buyers get new versions earlier and a direct line to the developer.
-- **Until 31 January 2027 inclusive, Pro is open to everyone in early access.** Press “Turn on Pro — until 31 January” in the app: no account and no payment, including on a Mac that already had a trial. All Pro features work; early builds and the direct line to the developer stay with buyers. The button text comes from the [1.5.6 release note of 26 October 2026](https://uncorkmac.com/en/changelog.html).
-- **After that date**, Pro features switch off for those who have not bought Pro; games keep launching for free. New Macs get the usual 7-day Pro trial, counted from the moment you start it yourself in Uncork. No account is needed for the trial, and there is one trial per Mac. Signing in moves the remaining days to your account. An account is needed only to buy Pro; there is no auto-renewal.
-- **Paying for Pro** is by Telegram Stars or crypto (USDT, TON, BTC and more); cards are not accepted yet. Refunds need no explanation in the first 14 days after payment; the other refund conditions are in the [terms](https://uncorkmac.com/terms.html).
-- **Pro is tied to one Mac.** To move it, press “Change Mac” in your profile: the binding is released at once if you have not changed Macs yourself in the last 30 days. For more frequent changes, write to hello@uncork.win.
-- **The Pro key** lasts a week and renews automatically while there is a network. After more than a week offline, Pro switches off until you go online; games themselves need no key.
+Optional gameplay features, including direct mouse input and the Assetto Corsa race setup screen, can currently be enabled for free in the Pro section. Some optional features may be offered for a fee in the future. Using them for free does not start a subscription or create an automatic charge.
+
+Existing Pro licences retain their 1.x entitlements under the terms of purchase. Owners can still sign in and restore access. [Terms](https://uncorkmac.com/terms.html) · [FAQ](https://uncorkmac.com/en/faq.html)
 
 ## Requirements
 
@@ -209,7 +201,7 @@ In September 2026 the developer tested official CS2 matchmaking on one account. 
 
 1. Download the app with the Download button on **[uncorkmac.com](https://uncorkmac.com/en/)** — no sign-in or sign-up needed.
 2. Install and open Uncork. The app is signed and notarized by Apple.
-3. Sign in to Steam inside Uncork and install a game. Running games is free. For Pro early access, press “Turn on Pro — until 31 January”; the dates and conditions are above.
+3. Sign in to Steam inside Uncork, install a game from your library, then press Play.
 
 ### One Terminal command
 
