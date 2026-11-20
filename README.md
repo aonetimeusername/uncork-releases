@@ -14,7 +14,7 @@ English version: [below](#uncork-english).
 
 Дополнительные игровые функции, включая прямой ввод мыши и экран заезда Assetto Corsa, сейчас можно включить бесплатно в разделе Pro. В будущем отдельные дополнительные функции могут стать платными. Бесплатное использование не создаёт подписку и не влечёт автоматического списания.
 
-Ранее приобретённые лицензии Pro сохраняют права на версии 1.x на условиях покупки. Владельцам по-прежнему доступны вход в аккаунт и восстановление доступа. [Условия](https://uncorkmac.com/terms.html) · [Ответы на вопросы](https://uncorkmac.com/faq.html)
+Новые покупки Pro временно закрыты. Ранее приобретённые лицензии Pro сохраняют права на версии 1.x на условиях покупки. Владельцам по-прежнему доступны вход в аккаунт и восстановление доступа. [Условия](https://uncorkmac.com/terms.html) · [Ответы на вопросы](https://uncorkmac.com/faq.html)
 
 ## Требования
 
@@ -32,7 +32,7 @@ English version: [below](#uncork-english).
 
 Uncork использует Wine 10.0 ревизии 6 от Sikarugir с комплектом драйверов Uncork и нашу сборку DXMT на базе v0.80. D3DMetal 3.0 от Apple загружается отдельно после принятия лицензии. При ручном выборе DXVK Uncork использует DXVK-macOS для Direct3D 10–11 и d9vk для Direct3D 9. Для игр на Direct3D 9 с выбранным DXVK мы исправили ошибку отрисовки, из-за которой в меню и игровом интерфейсе появлялись чёрные треугольники. [Как устроен Uncork](https://uncorkmac.com/how-uncork-works.html) · [Исправление Direct3D 9](https://uncorkmac.com/changelog.html#v1-6-2) · [Версии компонентов и лицензии](https://uncorkmac.com/licenses/third-party-notices.txt)
 
-**Assetto Corsa 2014.** Бесплатная версия готовит компоненты Windows для купленной игры. Дальше заезд можно начать из её лаунчера в Steam. В Pro есть Content Manager и экран заезда. Для Custom Shaders Patch 0.3 Uncork Pro выбирает DXMT. На D3DMetal в нашем тесте появлялись розовые квадраты по краям и бликам. [Настройка и результаты](https://uncorkmac.com/assetto-corsa.html)
+**Assetto Corsa 2014.** Бесплатная версия готовит компоненты Windows для купленной игры. Дальше заезд можно начать из её лаунчера в Steam. В Pro есть Content Manager и экран заезда. При запуске заезда из Uncork Pro используется DXMT. На D3DMetal при проверке с Custom Shaders Patch 0.3 мы увидели розовые квадраты по краям и в бликах. [Настройка и результаты](https://uncorkmac.com/assetto-corsa.html)
 
 | Возможность | Что это |
 |---|---|
@@ -143,7 +143,7 @@ Use Uncork to launch games you own on Steam and free-to-play Steam games without
 
 Optional gameplay features, including direct mouse input and the Assetto Corsa race setup screen, can currently be enabled for free in the Pro section. Some optional features may be offered for a fee in the future. Using them for free does not start a subscription or create an automatic charge.
 
-Existing Pro licences retain their 1.x entitlements under the terms of purchase. Owners can still sign in and restore access. [Terms](https://uncorkmac.com/terms.html) · [FAQ](https://uncorkmac.com/en/faq.html)
+New Pro purchases are paused. Existing Pro licences retain their 1.x entitlements under the terms of purchase. Owners can still sign in and restore access. [Terms](https://uncorkmac.com/terms.html) · [FAQ](https://uncorkmac.com/en/faq.html)
 
 ## Requirements
 
@@ -161,7 +161,7 @@ From the [FAQ dated 31 October 2026](https://uncorkmac.com/en/faq.html) and the 
 
 Uncork uses Sikarugir Wine 10.0 revision 6 with Uncork's driver package and our build of DXMT based on v0.80. Apple's D3DMetal 3.0 downloads separately after you accept its licence. If you select DXVK manually, Uncork uses DXVK-macOS for Direct3D 10–11 and d9vk for Direct3D 9. For Direct3D 9 games using DXVK, we fixed a rendering issue that drew large black triangles across menus and the in-game interface. [How Uncork works](https://uncorkmac.com/en/how-uncork-works.html) · [Direct3D 9 fix](https://uncorkmac.com/en/changelog.html#v1-6-2) · [Component versions and licences](https://uncorkmac.com/licenses/third-party-notices.txt)
 
-**Assetto Corsa (2014).** Free setup installs the Windows components for your Steam copy. You can then start a race from the game's own launcher. Pro adds Content Manager and a race setup screen. Uncork Pro selects DXMT for Custom Shaders Patch 0.3 because we saw pink squares on edges and highlights with D3DMetal. [Setup and test results](https://uncorkmac.com/en/assetto-corsa.html)
+**Assetto Corsa (2014).** Free setup installs the Windows components for your Steam copy. You can then start a race from the game's own launcher. Pro adds Content Manager and a race setup screen. Races launched from Uncork Pro use DXMT. When we tested Custom Shaders Patch 0.3 with D3DMetal, pink squares appeared on edges and highlights. [Setup and test results](https://uncorkmac.com/en/assetto-corsa.html)
 
 | Feature | What it is |
 |---|---|
